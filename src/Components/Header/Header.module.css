@@ -1,0 +1,22 @@
+.head{
+    position: absolute;
+    height: 73.03px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 74px  0px 74px;
+    /* padding-top: 6px; */
+    border-bottom: 0.1px solid #eee;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.xm4{
+    margin-right: 28px;
+}

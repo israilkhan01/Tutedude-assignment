@@ -1,0 +1,14 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.AppContainer{
+  position: relative;
+  /* display: block;  */
+  top: 73px ;
+  margin:0px 187px;
+}
+
+

@@ -1,0 +1,14 @@
+:root{
+  --grey:#4D4D4D;
+  --vol:#800080;
+  /* --gred:var(--grey) */
+  --black:#000000;
+  --pink:#EEAEAE;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
