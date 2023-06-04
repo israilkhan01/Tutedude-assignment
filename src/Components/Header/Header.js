@@ -3,6 +3,7 @@ import headerCss from './Header.module.css'
 import logo from '../../assets/logo.svg'
 import profilogo from '../../assets/Vectorprofile.svg'
 import dropdownIcon from '../../assets/Vectordrop.svg'
+import whitedropIcon from '../../assets/whitedrop.svg'
 import { NavLink, Link } from 'react-router-dom'
 export default function Header() {
   return (
@@ -22,9 +23,13 @@ export default function Header() {
           <div className={headerCss.lgp}>
             <img src={profilogo} alt=':-)' />
           </div>
+
           <div className={headerCss.xmd}> ProfileName</div>
           <div className={headerCss.dpl}>
             <img src={dropdownIcon} alt=':-)' />
+          </div>
+          <div className={headerCss.dplw}>
+            <img src={whitedropIcon} alt=':-)' />
           </div>
           </div>
           

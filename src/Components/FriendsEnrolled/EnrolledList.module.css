@@ -11,4 +11,11 @@
 .container::-webkit-scrollbar {
     width: 0px;
   }
-  
+
+@media screen and (max-width: 550px) {
+    .container{
+        flex-direction: column;
+        gap: 20px 0px;
+        align-items: flex-start;
+    }
+}

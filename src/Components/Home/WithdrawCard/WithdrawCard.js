@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import WiCardcss from './WithdrawCard.module.css'
 function WithdrawCard({active}) {
-    const [isActiveAll,setisActiveAll] = useState()
+    // const [isActiveAll,setisActiveAll] = useState()
     return (
         <div className={`${WiCardcss.container} ${!active? WiCardcss.Containeractive:""}`}>
             {active?<> <div className={WiCardcss.items}>
@@ -21,7 +21,7 @@ function WithdrawCard({active}) {
                 </div>
             </div> </>:""}
 
-            <div className={WiCardcss.items}>
+            <div className={`${WiCardcss.items} ${!active? WiCardcss.active:""} `}>
                 <div className={WiCardcss.head}>
                 Wallet Balance
                 </div>

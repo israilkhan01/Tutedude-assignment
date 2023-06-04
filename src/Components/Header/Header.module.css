@@ -67,26 +67,35 @@
         padding: 20px 45px 0px 45px;
     }
 }
-@media screen and (max-width:550px){
+@media screen and (max-width:768px){
     .head {
         padding: 20px 35px 0px 3px;
     }
     .link{
         display: none;
     }
+    .lgp{
+        display: none !important;
+    }
+    .dpl{
+        display: none !important;
+    }
     .prlink{
         background-color: var(--vol);
         color: white;
         text-decoration: none;
         border-radius: 10px;
-        /* width: 165px;
-        height: 48px; */
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 12px 25px;
+        padding: 12px 20px 12px 20px;
         gap: 10px;
+    }
+    .xmd{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
     }
     .logo img{
         width: 160px;

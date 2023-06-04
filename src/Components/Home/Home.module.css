@@ -1,6 +1,6 @@
 .cardCatainer {
     display: flex;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 40px;
 }
 
@@ -18,6 +18,11 @@
     font-size: 16px;
     line-height: 24px;
     color: var(--vol);
+}
+@media screen and (max-width:1080px){
+    .cardCatainer {
+        flex-wrap: wrap;
+    }
 }
 @media screen and (max-width:550px){
     .cardCatainer {

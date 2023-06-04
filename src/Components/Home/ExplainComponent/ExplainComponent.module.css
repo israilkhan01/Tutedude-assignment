@@ -30,6 +30,8 @@ line-height: 24px;
 margin: 0px;
 }
 .logCon{
+    min-width: 65px;
+    min-height: 65px;
     width: 65px;
     height: 65px;
     background: rgba(217, 217, 217, 0.25);
@@ -49,7 +51,7 @@ line-height: 24px;
 color: #4D4D4D;
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 768px){
     .workCont{
         display: grid;
         grid-template-columns: auto;

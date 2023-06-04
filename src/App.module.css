@@ -43,7 +43,7 @@
     
 .AppContainer{
   top: 93px;
-  width: 100%;
+  /* width: 100%; */
   padding:0px 35px;
   margin: 0px;
 }

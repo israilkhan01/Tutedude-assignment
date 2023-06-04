@@ -10,7 +10,7 @@ function Home() {
   return (
     <div className={homeCss.container}> 
        <div className={homeCss.cardCatainer}>
-             <WithdrawCard />
+             <WithdrawCard  active={true} />
              <ReferCard/>
        </div>
       <ExplainComponent/>
