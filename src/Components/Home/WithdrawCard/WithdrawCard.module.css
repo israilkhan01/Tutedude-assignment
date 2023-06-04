@@ -1,10 +1,125 @@
 .container{
     width: 486px;
-    height: 188px;
-    left: 187px;
-    top: 179px;
-
+    /* height: 188px; */
+    /* left: 187px; */
+    /* top: 179px; */
+    min-width: 358px;
+    max-height: 198px;
     background: #FFFFFF;
     box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px 61px;
+    /* flex: none; */
+    align-items: center;
+    justify-content: space-between;
+}
+.container.Containeractive{
+    width: unset;
+    min-width: unset;
+    max-height: unset;
+}
+.head{
+    font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: var(--vol);
+}
+.value{
+    font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+}
+.value.active{
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+#withdrawbtn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 16px;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:white;
+    background: var(--vol);
+    border-radius: 20px;
+    border: none;
+}
+.refeContainer{
+    margin-left: 100px;
+}
+.refhead{
+    font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: var(--vol);
+margin-bottom: 14px;
+}
+/* 
+.gradientBox {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    max-width: 22em;
+    position: relative;
+    padding: 30% 2em;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    border: solid 5px transparent;
+    border-radius: 1em;
+  }
+  .gradientBox:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -5px;
+    border-radius: inherit;
+    background: linear-gradient(to right, red, orange);
+  } */
+.refeContainer .numberContainer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-image-source:linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    border-image-slice: 1;
+    border-width: 1px;
+    padding: 10px 34px 10px 64px;
+    border-radius: 20px;
+    overflow: hidden;
+    /* clip-path: circle(50% at 50% 50%); */
+}
+.refNumber{
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+/* identical to box height */
+
+letter-spacing: 1.5em;
+}
+
+@media screen and (max-width:550px){
+    .container{
+        width: 100%;
+        max-width: 100%;
+        min-width: fit-content;
+    }
+    .refeContainer{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
 }

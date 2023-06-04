@@ -1,4 +1,26 @@
-.cardCatainer{
+.cardCatainer {
     display: flex;
-    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.section1 {
+    position: relative;
+    top: 60px;
+    padding-bottom: 20px;
+}
+.section2{
+    padding-bottom: 80px;
+}
+.buttons {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--vol);
+}
+@media screen and (max-width:550px){
+    .cardCatainer {
+        flex-wrap: wrap;
+    }
 }

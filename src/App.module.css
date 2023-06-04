@@ -9,6 +9,43 @@
   /* display: block;  */
   top: 73px ;
   margin:0px 187px;
+  transition: margin 0.3s,top 0.3s;
 }
-
+.section2{
+  padding-bottom: 80px;
+}
+.buttons {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--vol);
+}
+.section1 {
+  position: relative;
+  top: 60px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width:1280px){
+  .AppContainer{
+    top: 93px;
+    margin:0px 105px;
+    
+  }
+}
+@media screen and (max-width:820px){
+  .AppContainer{
+    top: 93px;
+    margin:0px 75px;
+  }
+}
+@media screen and (max-width:550px){
+    
+.AppContainer{
+  top: 93px;
+  width: 100%;
+  padding:0px 35px;
+  margin: 0px;
+}
+}
 

@@ -1,0 +1,34 @@
+.cardCatainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.section1 {
+    position: relative;
+    /* top: 60px; */
+    padding-bottom: 20px;
+}
+
+.buttons {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--vol);
+}
+
+.ReferCardFrontStyle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.75em;
+
+}
+
+.WithdrawCardClassactive{
+    display: none;
+}

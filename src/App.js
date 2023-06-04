@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import Header from './Components/Header/Header';
 import AppStyle from "./App.module.css";
 import Home from './Components/Home/Home';
+import Navigation from './Components/Navigation/Navigation';
+import FriendRefered from './Components/Pages/FriendsRefered/FriendRefered';
 import {
   BrowserRouter as Router,
   Route,
@@ -10,7 +12,7 @@ import {
   Redirect,
   Routes
 } from "react-router-dom";
-import Navigation from './Components/Navigation/Navigation';
+
 function App() {
   return (
        <Router>
@@ -33,8 +35,20 @@ function App() {
                 Component={Home}
               ></Route>
               {/* <Route exact path="/education" component={About}></Route> */}
-             
+              <Route
+                exact
+                path="/refer/"
+                Component={FriendRefered}
+              ></Route>
             </Routes>
+         
+        {/* <FriendRefered /> */}
+      <section className={`${AppStyle.section1} ${AppStyle.section2}`}>
+        <div className={AppStyle.buttons}>
+        Terms & Conditions
+        </div>
+      </section>
+        
             </div>
             </div>
        </Router>

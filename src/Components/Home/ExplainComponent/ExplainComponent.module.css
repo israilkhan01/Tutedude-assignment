@@ -1,0 +1,58 @@
+.container{
+    max-width: fit-content;
+}
+.head{
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+margin: 0px;
+margin-bottom: 20px;
+
+color: #800080;
+}
+.workCont{
+    display: grid;
+    grid-template-columns: auto auto;
+   gap:45.44px 45px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.desContainer p{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+margin: 0px;
+}
+.logCon{
+    width: 65px;
+    height: 65px;
+    background: rgba(217, 217, 217, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.des{
+    max-width: 300px;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* line-break: anywhere; */
+color: #4D4D4D;
+}
+
+@media screen and (max-width: 550px){
+    .workCont{
+        display: grid;
+        grid-template-columns: auto;
+       gap:45.44px 45px;
+    }
+}
