@@ -8,9 +8,11 @@ import { NavLink, Link } from 'react-router-dom'
 export default function Header() {
   return (
     <header className={headerCss.head}>
-      <div className={headerCss.logo}>
-        <img src={logo} alt='logo' />
-      </div>
+      <NavLink to='' className={headerCss.logoLink}>
+        <div className={headerCss.logo}>
+          <img src={logo} alt='logo' />
+        </div>
+      </NavLink>
       <div className={headerCss.links}>
         <NavLink to='' className={headerCss.link}>
           <div className={headerCss.xm4}> My Assignment</div>
@@ -20,19 +22,19 @@ export default function Header() {
         </NavLink>
         <NavLink to='/' className={headerCss.prlink}>
           <div className={headerCss.prof}>
-          <div className={headerCss.lgp}>
-            <img src={profilogo} alt=':-)' />
+            <div className={headerCss.lgp}>
+              <img src={profilogo} alt=':-)' />
+            </div>
+
+            <div className={headerCss.xmd}> ProfileName</div>
+            <div className={headerCss.dpl}>
+              <img src={dropdownIcon} alt=':-)' />
+            </div>
+            <div className={headerCss.dplw}>
+              <img src={whitedropIcon} alt=':-)' />
+            </div>
           </div>
 
-          <div className={headerCss.xmd}> ProfileName</div>
-          <div className={headerCss.dpl}>
-            <img src={dropdownIcon} alt=':-)' />
-          </div>
-          <div className={headerCss.dplw}>
-            <img src={whitedropIcon} alt=':-)' />
-          </div>
-          </div>
-          
         </NavLink>
       </div>
     </header>
