@@ -18,7 +18,7 @@ export default function Header() {
         <NavLink to='' className={headerCss.link}>
           <div className={headerCss.xm4}> Chat with Mentor</div>
         </NavLink>
-        <NavLink to='/' activeClassName={headerCss.active} className={headerCss.prlink}>
+        <NavLink to='/' className={headerCss.prlink}>
           <div className={headerCss.prof}>
           <div className={headerCss.lgp}>
             <img src={profilogo} alt=':-)' />

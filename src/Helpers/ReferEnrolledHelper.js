@@ -10,7 +10,7 @@ export const friendEnrolledData = [
         "_id": 2,
         "Name": "Subhash Mishra",
         "enrolledDate" :"15 Sep, 2022",
-        "coursesEnrolled":[" UI/UX",'Photoshop','Illustrator','Python','MERN','Java'],
+        "coursesEnrolled":[" UI/UX",'Photoshop','Illustrator','Python','MERN','Java','Photoshop','Illustrator','Python'],
         "referAmount" :"₹485"
     },
     {

@@ -55,11 +55,26 @@
     gap: 14px;
     flex-wrap: wrap;
     color: #FFFFFF;
-    padding: 0px 20px 10px 20px;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 10px;
     overflow-y: scroll;
 }
 .courseList::-webkit-scrollbar {
-    width: 0px;
+    width: 5px;
+  }
+  .courseList::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  .courseList::-webkit-scrollbar-thumb {
+    background: #EEAEAE;
+    border-radius: 2.5px;
+  }
+  
+  /* Handle on hover */
+  .courseList::-webkit-scrollbar-thumb:hover {
+    background: #555; 
   }
 .courseList span {
     font-weight: 400;

@@ -1,3 +1,8 @@
+.container{
+    opacity: 0;
+    padding:3em 0em;
+    transition: 0.5s all ease;
+}
 .cardCatainer {
     display: flex;
     /* margin-top: 30px; */
@@ -18,14 +23,20 @@
     font-size: 16px;
     line-height: 24px;
     color: var(--vol);
+    cursor: pointer;
 }
+.buttons:hover{
+    color: var(--pink);
+  }
 @media screen and (max-width:1080px){
     .cardCatainer {
         flex-wrap: wrap;
+        flex-direction: column;
     }
 }
 @media screen and (max-width:550px){
     .cardCatainer {
         flex-wrap: wrap;
+        /* font-style: normal; */
     }
 }

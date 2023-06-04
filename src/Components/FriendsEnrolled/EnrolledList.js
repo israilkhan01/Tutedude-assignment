@@ -5,8 +5,8 @@ import Card from './EnrolledCard/Card'
 function EnrolledList({friendEnrolledData}) {
   return (
     <div className={Stylecss.container}>
-        {friendEnrolledData.map((friend) => {return (
-            <Card friendData = {friend} />
+        {friendEnrolledData.map((friend,key) => {return (
+            <Card key={key} friendData = {friend} />
         )})}
     </div>
   )

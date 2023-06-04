@@ -1,17 +1,21 @@
 .btn{
-    
-background: transparent;
-color: #800080;
-border: none;
-display: flex;
-align-items: center;
-padding: 0px;
-margin-bottom: 20px;
-height: 24px;
+    background: transparent;
+    color: #800080;
+    border: none;
+    display: none;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 20px;
+    height: 24px;
 }
 .btn span{
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     margin-left: 10px;
+}
+@media screen and (max-width: 768px) {
+    .btn{
+       display: flex;
+   }
 }

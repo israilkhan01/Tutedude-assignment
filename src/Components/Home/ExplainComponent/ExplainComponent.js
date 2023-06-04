@@ -16,7 +16,7 @@ function ExplainComponent() {
         {
           data.map((val, key) => {
             return (
-              <div className={Style.card}>
+              <div key={key} className={Style.card}>
                 <div className={Style.logCon}>
                   <img src={val.logo} alt='icon' />
                 </div>

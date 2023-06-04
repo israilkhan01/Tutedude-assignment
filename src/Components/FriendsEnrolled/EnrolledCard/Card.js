@@ -1,8 +1,8 @@
 import React from 'react'
 import CardCss from "./Card.module.css"
-export default function Card({friendData}) {
+export default function Card({friendData,key}) {
   return (
-    <div className={CardCss.container}>
+    <div key={key} className={CardCss.container}>
       <div className={CardCss.head}>
         <div className={CardCss.name}>
           {friendData.Name}

@@ -10,6 +10,9 @@
     position: relative;
     /* top: 60px; */
     /* padding-bottom: 20px; */
+    opacity: 0;
+    padding:3em 0em;
+    transition: 0.5s all ease;
 }
 
 .buttons {

@@ -10,6 +10,9 @@
   top: 73px ;
   margin:0px 187px;
   transition: margin 0.3s,top 0.3s;
+  opacity: 0;
+  padding:1em 0em;
+  transition: 0.1s all ease;
 }
 .section2{
   padding-bottom: 80px;
@@ -20,6 +23,10 @@
   font-size: 16px;
   line-height: 24px;
   color: var(--vol);
+  cursor: pointer;
+}
+.buttons:hover{
+  color: var(--pink);
 }
 .section1 {
   position: relative;
@@ -44,8 +51,7 @@
 .AppContainer{
   top: 93px;
   /* width: 100%; */
-  padding:0px 35px;
-  margin: 0px;
+  margin:0px 35px;
 }
 }
 
