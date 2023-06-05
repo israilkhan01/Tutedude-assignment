@@ -121,9 +121,12 @@
     background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
     border-radius: 8px;
     overflow: hidden;
+    cursor: pointer;
     /* clip-path: circle(50% at 50% 50%); */
 }
-
+.refeContainer .refNumber:hover{
+    /* background-color: lightgrey; */
+}
 .refeContainer .numberContainer.active {
     border-radius: 10px;
     background: none;
@@ -221,13 +224,28 @@
         /* max-width: 74px; */
         padding: 14px 24px;
     }
+    .refNumber{
+        padding: 10px 25px 11px 55px;
+    }
 }
 @media screen and (max-width:509px) {
     .container .items:last-child {
         width: unset;
         /* display: unset; */
         justify-content: center;
-    }}
+        padding-left: 10px;
+    }
+    /* .refNumber{
+        padding: 10px 40px 11px 55px;
+        letter-spacing: 1em;
+    } */
+}
+@media screen and (max-width:413px) {
+    .refNumber{
+        padding: 10px 40px 11px 55px;
+        letter-spacing: 1em;
+    }
+}
 .container .items.active {
     display: flex;
     flex-direction: column;

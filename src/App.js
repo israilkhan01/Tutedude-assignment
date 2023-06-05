@@ -12,9 +12,10 @@ import {
   Redirect,
   Routes
 } from "react-router-dom";
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 function App() {
+
   useEffect(() => {
     let LandingPage = document.querySelector(`.${AppStyle.AppContainer}`);
     // console.log("Home mounted", LandingPage);
